@@ -1,0 +1,53 @@
+
+
+
+
+
+.maindiv{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 65%; */
+    background-size: cover;
+    background-image: url("../assets/images/signinbackimg.png");
+}
+.logoimg{
+    width: 50%;
+    
+    /* height: 50%; */
+   /* margin: 0 auto; */
+   /* background-color: aqua; */
+}
+.formdivouter{
+    /* width: 35%; */
+    /* background-color: purple; */
+}
+.signincolumns{
+  
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 970px) {
+  .backimgcoldiv{
+    display: none;
+  }
+  .formdivouter{
+    width: 100%;
+    /* background-color: purple; */
+}
+  }

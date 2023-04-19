@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: poppiens;
+    src: url(../../assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: montserrate;
+    src: url( ../../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+ 
+
+
+.formmaindiv{
+    /* background-color: aqua; */
+    margin: 0 auto;
+    padding: 10px;
+}
+.signinlable{
+    font-family: 'montserrate';
+    /* font-size: 70px;
+    font-weight: 500; */
+    margin-top: 20px;
+}
+.radiobtnsignin{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: purple; */
+    
+}
+.forminputsignin{
+    padding: 8px;
+    font-family: 'montserrate';
+}
+.signinformbtnsubmit{
+    width: 70%;
+    padding: 10px;
+    /* border-radius: 5px; */
+    background: linear-gradient(180deg, #DD995F 0%, #D28B13 100%);
+box-shadow: 0px 5.41176px 6.7647px -1.35294px rgba(0, 0, 0, 0.18);
+border-radius: 4.05882px;
+border: none;
+    /* background-color: brown ; */
+    color: white;
+}
+.signintoplogoimg{
+    width: 150px;
+    height: 150px;
+}
+.checkboxsigninform{
+    /* background-color: brown; */
+}
+.checkboxandforgot{
+    font-family: 'montserrat';
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: orangered; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logosdiv{
+    width: 50%;
+    padding-bottom: 53px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: pink; */
+}

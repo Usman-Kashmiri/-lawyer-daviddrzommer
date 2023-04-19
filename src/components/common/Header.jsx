@@ -45,7 +45,7 @@ const Header = () => {
             <Nav.Link href="" className={nav_link_class}>Blog</Nav.Link>
             <Nav.Link href="" className={nav_link_class}>Contact</Nav.Link>
             {!user && <div className='d-flex gap-3 ms-lg-3 justify-content-center'>
-              <button onClick={() => setUser(true)} className='primary-btn'>Login</button>
+            <Nav.Link href="/signin" className='loginbtn' >Login</Nav.Link>
               <button onClick={() => setUser(true)} className='secondary-btn'>Join</button>
             </div>}
             {user && <div className='dropdown-container d-flex justify-content-end'>

@@ -1,0 +1,58 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+.dropdown-container {
+    min-width: 200px;
+}
+
+.dropdown-icon {
+    width: 36px;
+    position: absolute;
+    margin-right: 1px;
+    right: 0;
+    top: 0;
+    margin-top: -24px;
+    z-index: 1000;
+}
+
+.dropdown-container .username {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #5D5D5D;
+    line-height: 1;
+}
+
+.dropdown-container .email {
+    font-size: .75rem;
+    font-weight: 400;
+    color: #5D5D5D;
+}
+
+.dropdown-container .dropdown-toggle {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 4px;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    content: "\f078";
+    color: #D79135;
+    font-size: 1.25rem;
+    font-family: 'fontAwesome';
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+   right: 0;
+   border-radius: 0;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: unset;
+    left: unset;
+    margin-top: unset;
+}

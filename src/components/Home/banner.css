@@ -1,0 +1,161 @@
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    padding: 2px !important;
+    background: transparent !important;
+    border: white solid 1px !important;
+    opacity: 1 !important;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active {
+    border-color: #DF9B60 !important;
+    position: relative;
+    display: flex;
+}
+
+.carousel-indicators .active::after {
+    z-index: 100;
+    position: absolute;
+    content: ' ';
+    background-color: #DF9B60 !important;
+    width: 75%;
+    height: 75%;
+    top: 15%;
+    left: 12%;
+    border-radius: 100%;
+}
+
+.slider-caption-container {
+    background: linear-gradient(180deg, transparent 0.14%, #000000c2 68.56%);
+}
+
+.slider-caption button {
+    font-family: var(--montserrat);
+    font-size: 1rem;
+    font-weight: 600;
+    border: solid 1px #D88531;
+    background-color: transparent;
+    color: #D99446;
+}
+
+
+.milestones-container .counter-container {
+    background-color: var(--secondary-color);
+}
+
+.milestones-container .count {
+    font-family: var(--lora);
+}
+
+.milestones-container .text {
+    font-family: var(--raleway);
+}
+
+.milestones-container .how,
+.featured-lawyer .feature-heading {
+    padding-left: 6rem;
+    position: relative;
+}
+
+.milestones-container .how h2::before,
+.featured-lawyer .feature-heading h2::before {
+    content: ' ';
+    width: 50px;
+    height: 2px;
+    background-color: var(--dark-bg-color);
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.featured-lawyer .feature-heading h2::before {
+    top: 65px;
+}
+
+.milestones-container .how p {
+    text-align: justify;
+}
+
+.details-container .row {
+    margin-top: 50px;
+}
+
+.details-container .title .count {
+    color: #BEBEBE;
+}
+
+
+.services-svg span {
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 4px;
+    height: 4px;
+    background-color: #D9D9D9;
+}
+
+.services-container .service {
+    min-height: 250px;
+    min-width: 100%;
+}
+
+.featured-lawyer {
+    background-color: #F9F9F9;
+}
+
+.featured-lawyer .featured-lawyer-svg {
+    margin-top: -46px;
+    position: absolute;
+    right: 0;
+}
+
+.featured-lawyer .lawyer-card-top {
+    background-color: #F5EAD6;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .slider-caption h3 {
+        font-size: 1.5rem;
+    }
+    .slider-caption h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .details-container p {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .slider-caption h3 {
+        font-size: 1.25rem;
+    }
+    .slider-caption h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-indicators {
+        display: none;
+    }
+    .slider-caption h3 {
+        font-size: .75rem;
+    }
+    .slider-caption h1 {
+        font-size: 1rem;
+    }
+    .slider-caption button {
+        font-size: .75rem;
+    }
+    .milestones-container .how h2::before {
+        left: 15px;
+    }
+    .milestones-container .how {
+        padding-left: 5rem;
+        padding-right: 1rem;
+    }
+}

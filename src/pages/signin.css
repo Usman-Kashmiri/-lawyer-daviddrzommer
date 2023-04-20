@@ -42,12 +42,19 @@
 
 
 
-@media only screen and (max-width: 970px) {
-  .backimgcoldiv{
-    display: none;
+
+
+
+
+
+  @media only screen and (max-width: 730px) {
+    .backimgcoldiv{
+      display: none;
+      /* width: 50%; */
+    }
+    .formdivouter{
+      /* width: 50%; */
+      /* background-color: purple; */
   }
-  .formdivouter{
-    width: 100%;
-    /* background-color: purple; */
-}
-  }
+    }
+  

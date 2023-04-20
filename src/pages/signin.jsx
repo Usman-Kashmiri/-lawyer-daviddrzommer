@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { useState,useEffect } from 'react';
+import BasicExample from '../components/signin/from';
 
 
 
@@ -24,17 +25,17 @@ const Signin = ()=>{
     <Row>
 
 
-    <Col xs='0' lg="8" className='signincolumns backimgcoldiv'>
+    <Col sm='0' md='6' lg="8" className='signincolumns backimgcoldiv'>
         <div className='maindiv'>
             <img src={whitelogo}  className='logoimg'/>
             {/* <h1>hello</h1> */}
 
         </div>
         </Col>
-        <Col xs='12'lg='4' className='signincolumns'>
+        <Col sm='12' md='6'lg='4' className='signincolumns'>
         <div className='formdivouter'>
             <img src='' />
-            <Formsignin/>
+           <BasicExample/>
            
         </div>
         </Col>

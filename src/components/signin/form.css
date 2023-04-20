@@ -8,63 +8,137 @@
     src: url( ../../assets/fonts/Montserrat-VariableFont_wght.ttf);
 }
  
-
-
 .formmaindiv{
-    /* background-color: aqua; */
-    margin: 0 auto;
-    padding: 10px;
-}
-.signinlable{
-    font-family: 'montserrate';
-    /* font-size: 70px;
-    font-weight: 500; */
-    margin-top: 20px;
-}
-.radiobtnsignin{
-    margin-top: 20px;
-    margin-bottom: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
     /* background-color: purple; */
-    
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 80px;
+    padding-right: 30px;
 }
-.forminputsignin{
-    padding: 8px;
-    font-family: 'montserrate';
-}
-.signinformbtnsubmit{
-    width: 70%;
-    padding: 10px;
-    /* border-radius: 5px; */
-    background: linear-gradient(180deg, #DD995F 0%, #D28B13 100%);
-box-shadow: 0px 5.41176px 6.7647px -1.35294px rgba(0, 0, 0, 0.18);
-border-radius: 4.05882px;
-border: none;
-    /* background-color: brown ; */
-    color: white;
+.toplogodiv{
+    /* background-color: yellow; */
+    width: 150px;
+    margin: 0 auto;
 }
 .signintoplogoimg{
+    padding-top: 10px;
     width: 150px;
     height: 150px;
 }
-.checkboxsigninform{
-    /* background-color: brown; */
+.signupheading{
+    font-family: "montserrate";
+    font-size: 40px;
+    margin-top: 10px;
+    /* background-color: orange; */
+    color: #DD995F;
 }
-.checkboxandforgot{
-    font-family: 'montserrat';
-    width: 80%;
-    margin: 0 auto;
-    /* background-color: orangered; */
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-.logosdiv{
+.radiodiv{
     width: 50%;
-    padding-bottom: 53px;
+    margin: 0 auto;
+    /* background-color: brown; */
     display: flex;
     justify-content: space-evenly;
-    /* background-color: pink; */
 }
+.signinbtn{
+    background-color: #DD995F;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.signinbtn:hover{
+    background-color: #c08149;
+
+}
+.radiolabel{
+    font-size: 15px;
+
+}
+.radioinput:checked:after{
+    content: ' ';
+    border: 3px solid #DD995F;
+    background-color: #ffffff;
+    width: 13px;
+    height: 13px;
+    border-radius: 20px;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.radioinput{
+    position: relative;
+    margin-left: 10px;
+    accent-color: #DD995F;
+    border: 3px solid #FFF;
+    outline: white;
+    /* width: 20px; */
+    /* height: 20px; */
+    /* margin-top: 10px; */
+    /* color: #DD995F; */
+    /* background-color: #DD995F !important; */
+}
+.signinsubmitbtndiv{
+    width: 70%;
+    /* background-color: pink; */
+    margin: 0 auto;
+    
+}
+.checkboxandforgot{
+    margin: 10px auto;
+    /* background-color: orangered; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.checkboxinput{
+    font-size: 14px;
+}
+.forgottext{
+    font-size: 14px;
+    color: #DCA54A;
+
+}
+.forgottext:hover{
+    text-decoration: underline;
+}
+.createnewaccount{
+margin: 0 auto;
+/* background-color: yellow; */
+text-align: center;
+}
+.logosdiv{
+    /* background-color: aqua; */
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .checkboxandforgot{
+        margin: 10px auto;
+        /* background-color: orangered; */
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    }
+
+
+
+    @media only screen and (max-width: 540px) {
+        .checkboxandforgot{
+            margin: 10px auto;
+            /* background-color: orangered; */
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+        }
+        }
